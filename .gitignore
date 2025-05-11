@@ -1,0 +1,40 @@
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+*.dist-info/
+virtualenv/
+.venv/
+env/
+.env
+
+# Ignore common ML and data files
+*.pt
+*.pth
+*.h5
+*.onnx
+data/
+datasets/
+
+# Ignore Hugging Face and related libraries output
+wandb/
+lightning_logs/
+tensorboard/
+runs/
+
+# Ignore the specific output directory from grpo_cells.py
+GRPO/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+thumbs.db
+
+# Ignore log files
+*.log 
