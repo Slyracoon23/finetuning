@@ -27,6 +27,9 @@ runs/
 
 # Ignore the specific output directory from grpo_cells.py
 GRPO/
+unsloth_compiled_cache/
+SmolGRPO-135M-Unsloth/
+GRPO_Unsloth/
 
 # Ignore IDE files
 .vscode/
